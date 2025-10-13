@@ -6,11 +6,11 @@
 /*   By: rcochran <rcochran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 15:57:46 by rcochran          #+#    #+#             */
-/*   Updated: 2025/10/10 16:10:25 by rcochran         ###   ########.fr       */
+/*   Updated: 2025/10/13 10:57:04 by rcochran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "main.hpp"
+#include "iostream"
 
 class	Zombie
 {
