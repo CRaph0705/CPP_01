@@ -1,27 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Zombie.hpp                                         :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rcochran <rcochran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/10 15:57:46 by rcochran          #+#    #+#             */
-/*   Updated: 2025/10/13 14:54:47 by rcochran         ###   ########.fr       */
+/*   Created: 2025/10/13 13:35:07 by rcochran          #+#    #+#             */
+/*   Updated: 2025/10/13 13:49:34 by rcochran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 
-class	Zombie
+int	main( void )
 {
-private :
-	std::string name;
+	std::cout << "plop" << std::endl;
+
+prison:
+
+	goto prison;
 	
-public :
-	Zombie(void);
-	Zombie(std::string name);
-	~Zombie(void);
-	void	announce(void);
-	std::string	getName(void);
-	void	setName(std::string name);
-} ;
+	return (0);
+}
