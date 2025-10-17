@@ -13,3 +13,5 @@ ex03/fight
 ex04/my_sed
 ex04/infile
 ex04/infile.replace
+ex04/*.txt*
+
